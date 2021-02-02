@@ -1,0 +1,95 @@
+image tag
+-------------------
+
+this tag is used to display images.
+the name of the tag is img
+the attribute are
+1)src---this provides the location of image on the drive.
+2)alt---the alternate txt that has to be displayed if the image is not loaded due to network issue.
+3)height
+4)width
+
+for easy development if the images are available in the same folder as of ur html file then there is  no need of the complete path 
+
+heading tag
+----------------------
+this tag is used to display text content.
+h1,h2,h3,h4,h5,h6.
+the text is always displayed in bold letters.
+
+paragraph tag
+--------------------------
+
+p tag is used to display paragaphs
+
+	1)Details
+	-------------------
+		this tag is used to hide a para from the user. the use needs to 				click on the arrow symbol to view the content.this is available 		from html5
+	2)Summary
+	---------------------
+		this tag is used within the details tag to rename the details 				keyword that is displayed in your html page.this is available 				from html5
+	3)span
+	-------------
+		this tag is used to give a different styling to a  word or group of 				words inside a paragraph.
+
+division tag
+---------------------
+this is the div tag.
+this is used to group  all tag that for a group together
+this can have imgs par or even formtag inside it.
+every div tag creates a new row.
+
+list tag
+-------------
+this helps in displays a bulleted data.
+	1)ordered list-->ol	
+	---------------------------------
+		this is used to display a numbered list of items
+		each item in the list is displayed with the help of li tag
+		The style="list-style-type: lower-alpha;" is used to display the 			items with alphabets.
+		this need to given in ol tag to apply to all li inside the ol.	
+		
+	2)unordered list-->ul
+	--------------------------------------
+		this is used to display a bulleted list.	
+		each item is displayed with the help of li tag.
+		The style="list-style-type: square;" is used to display the 					items with square.
+		this need to given in ol tag to apply to all li inside the ol.
+Navigation link
+-----------------------------
+this tag is used to move between pages.
+<a> this is also called as anchor.
+
+href----to tell which page page to open
+target--to tell where to open.
+
+
+Audio Video
+-------------------------
+
+audio and video tag can be used to include audio and video files.
+control attribute is used to control the sound and palyback setting of audio and vedio.
+source is use to tell the file that is to be played.
+
+meter
+------------
+The <meter> tag defines a scalar measurement within a known range, or a fractional value. This is also known as a gauge.
+Note: The <meter> tag should not be used to indicate progress (as in a progress bar).
+
+progress bar
+-----------------------
+The <progress> tag represents the completion progress of a task.
+Tip: Use the <progress> tag in conjunction with JavaScript to display the progress of a task.
+
+Semantic Elements
+-----------------------------------
+
+
+1)div---this was available even before html5.
+2)aside-----h tags and p tags.this is used to provide developer details
+3)section---h tag and p tags this is used in replacement of div tag
+4)article---- h tag,p tag with img
+5)header----navigation links along with company name that will repeat in all page this 	group can be called as header
+6)footer--this come in the bottom of the page
+7)figure--gives the image and the caption of figure
+8)nav----a collection of ul tags that can be used to navigate between pages.

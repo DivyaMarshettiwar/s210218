@@ -1,0 +1,35 @@
+meta tag 
+----------------
+
+is used to provide the information about a html page
+there is no close tag for meta
+
+author----who created this page
+description-what this page has
+keywords--when to display this page
+viewport---the divice in which you are going to view
+
+
+<meta name="author" content="Rebecca">
+<meta name="description" content="sample html design">
+<meta name="keywords" content="tags,html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+base tag
+----------------
+
+your base tag comes inside your html head
+it is used to give the location of your files on your machine.
+this tage also has no close
+
+link
+--------
+
+call an external file
+this file can be a stylesheet file
+this can also refer to a image that you want to come on the title bar before the title
+herf----tell us the location of the file
+rel---this tell us to what purpous should i use this file for.
+the keywords used for rel
+1)shortcut icon---this is used to  refer to a image that comes befor title.
+2)stylesheet---this referes to an external css sheet.
