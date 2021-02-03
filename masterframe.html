@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Shoppping Cart</title>
+    </head>
+    <body>
+        <table width="100%">
+            <tr width="100%">
+                <!--
+                    this tag is used to call any external html page
+                    1)src=source file the file that has to called upon to be displayed.
+                    2)name=it is used when we want to display multiple content in the same location
+                    3)seamless=set it true so that we dont get scroll bar.
+                    4)srcdoc this is used to hold html code direcly
+                -->
+              <td colspan="2">  <iframe src="pagetitle.html" width="100%" scrolling="no" ></iframe></td>
+            </tr>
+            <tr>
+                <td width="15%"><iframe src="menu.html" width="100%"></iframe></td>
+                <td width="85%"><iframe src="" name="dispcontent" width="100%"></iframe></td>
+                <!--
+                  the above tag has no src because it  will display the page selected by the
+                  menu.html links
+                -->
+            </tr>
+        </table>
+    </body>
+</html>
