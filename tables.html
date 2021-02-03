@@ -1,0 +1,68 @@
+<!DOCTYPE html> #
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Table</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        #mytable {
+            border-color: bisque;
+            border-style: groove;
+            width: 100%;
+        }
+        
+        td,
+        th {
+            text-align: center;
+            border-color: bisque;
+            border-style: groove;
+        }
+        
+        tbody>tr:nth-child(even) {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="mytable">
+        <thead>
+            <tr>
+                <caption>Receipt</caption>
+            </tr>
+            <tr>
+                <th>Product Id</th>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Pens</td>
+                <td>100</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Pens</td>
+                <td>100</td>
+                <td>1000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Total</th>
+                <th>10000</th>
+            </tr>
+            <tr>
+                <th colspan="3">GST</th>
+                <th>800</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

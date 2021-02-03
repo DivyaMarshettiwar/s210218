@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <script>
+        function DISPLAY() {
+            var status = confirm("do you want to submit")
+            if (status == true) {
+                alert("fUNCTION CALLED");
+                var data = prompt("enter your name", "mythreye");
+                alert(data);
+            } else {
+                alert("bye")
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form onsubmit="DISPLAY()" target="_parent">
+        <table>
+            <tr>
+                <td><label>UserName</label></td>
+                <td><input type="" name="username" id="username" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Password</label>
+                </td>
+                <td>
+                    <select name="selectdata" id="selectdata"> 
+                        <option value="1">jan</option>
+                        <option>feb</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Select Role</label></td>
+                <td>
+                    <fieldset>
+                        <input type="radio" id="role" name="role" value="student"><label>Student</label><br/>
+                        <input type="radio" id="role1" name="role" value="Fculty"><label>Faculty</label>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>List</td>
+                <td>
+                    <input type="text" list="name">
+                    <datalist id="name">
+                    <option>CBE</option>
+                    <option>CHN</option>
+                    <option>MUM</option>
+                </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="align-content: center;">
+                    <input type="submit">
+                </td>
+            </tr>
+            <tr>
+                <TD>
+                    <output name="MYOUTPUT" ID="MYOUTPUT"></output>
+                </TD>
+            </tr>
+            <TR>
+                <input type="SUBMIT">
+            </TR>
+        </table>
+    </form>
+</body>
+
+</html>

@@ -1,24 +1,46 @@
+<!DOCTYPE html>
 <html>
-    <body>
-        <!---
-        the form tag is used to design the the dialog box.
-        1)action of the form tag is used to call method that ae written in javascript
-        /other html page  
-        2)method= get/post when i say get the details that u had filled in the form will be displayed
-        on the url
-        when u say post it will not display
-        3)target: where the output of the form is to be displayed
-        4)auto complete:on/off
-        -->
-        <form action="" method="">
-        <table>
-            <tr>
 
-            </tr>
-            <tr>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        div {
+            margin: 10%;
+        }
+    </style>
+    <script>
+        function validate() {
+            var username = document.getElementById("username").innerHTML;
+            var userpassword = document.getElementById("userpassword").innerHTML;
+            if (username == "NIIT" && userpassword == "NIIT")
+                alert("welcome");
+            else
+                alert("wrong data");
+        }
+    </script>
+</head>
 
-            </tr>
-        </table>
-    </form>
-    </body>
-</html>
+<body>
+    <div>
+        <form onsubmit="validate()">
+            <table style="width: 100%;">
+                <tr>
+                    <td><label for="username">UserName</label></td>
+                    <td><input type="text" id="username" name="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="userpassword">Password</label></td>
+                    <td><input type="password" name="userpassword" id="userpassword"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>l>
