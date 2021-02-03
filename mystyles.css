@@ -1,0 +1,54 @@
+/*
+css stands for cascading style
+
+multiple pages can share this sheet.
+in which everpage i want this sheet i will use the link tag
+
+link rel=stylesheet href=filename
+
+by this way i can add a external stylesheet to my application
+this way is called AS EXTERNAL STYLE SHEET
+
+selector--whill have the names of element for whome the style needs to be applied
+there are two way in which we can call the selector
+
+1)class selector:when multiple elements(p/img) is going have the same style the we 
+can directly call the element with the help of tag name
+
+2)id selector:this is used when we want to apply different styles to the same element.
+the id selector will search for the id of the element
+
+
+
+declartion block this is repersented by a {}.the information inside the{}
+are in the form of property and value
+
+selector
+{
+    property:value;
+    property:value;
+    propert:value//for the last statement if the semicolon is nopt given my mistake
+}
+*/
+body
+{
+background-color: darkcyan;
+margin-left: 50px;
+}
+/*the below is used for paragraphs*/
+#mypara
+{
+    background-color: aquamarine;
+    color: chocolate;
+    font-style: italic;
+    font-family: cursive;
+}
+/*
+the below style is also a class selector here instead of classing the element name 
+i have given a user defined name.
+this name can be refered with the help of class attribute of a tag
+*/
+.mydata
+{
+
+}

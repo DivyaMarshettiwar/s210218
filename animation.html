@@ -1,0 +1,28 @@
+<html>
+    <style>
+        div{
+            width:200px;
+            height: 200px;
+            background-color: aqua;
+            -webkit-transition:width 4s;
+            -webkit-animation-name: myfirst;
+            -webkit-animation-duration: 4s;
+            -o-transition:width 4s;            
+        }
+        @-webkit-keyframes myfirst
+        {
+            0%{background-color: aqua;}
+            25%{background-color: aquamarine;}
+            50%{background-color: cadetblue;}
+            75%{background-color: cornflowerblue;}
+            100%{background-color: black;}
+        }
+        div:hover
+        {
+            width: 400px;
+        }
+    </style>
+    <body>
+        <div></div>
+    </body>
+</html>

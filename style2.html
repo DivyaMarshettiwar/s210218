@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <style type="text/css">
+                /*
+                this is applied only to the child inside the div if div is the immediate
+                parent*/
+                div>p{
+                    background-color: aqua;
+                    color: red;
+                    font-size: x-large;
+                }
+                /*
+                this is applied to all p inside div
+                */
+                div p{
+                    text-align: justify;
+                }
+                  /*
+                  after the close of div it applies to all para
+                  */  
+                div~p{
+                    margin-left: 100px;
+                }
+                   /*
+                   after the close of div it applies to the first child
+                   */ 
+                div+p{
+                    margin-right: 100px;                    
+                }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>
+                Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+            </p>
+            <p>
+                Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+            </p>
+            <details>
+                <p>HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.[2]</p>
+            </details>            
+        </div>
+        <p>
+            HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. 
+        </p>
+        <p>
+            In 1980, physicist Tim Berners-Lee, a contractor at CERN, proposed and prototyped ENQUIRE, a system for CERN researchers to use and share documents. In 1989, Berners-Lee wrote a memo proposing an Internet-based hypertext system.[3] Berners-Lee specified HTML and wrote the browser and server software in late 1990. That year, Berners-Lee and CERN data systems engineer Robert Cailliau collaborated on a joint request for funding, but the project was not formally adopted by CERN. In his personal notes[4] from 1990 he listed[5] "some of the many areas in which hypertext is used" and put an encyclopedia first.
+        </p>
+    </body>
+</html>
